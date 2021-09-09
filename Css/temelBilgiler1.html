@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h6 {
+            text-align: center;
+            color: red;
+        }
+
+        #para1 {
+            text-align: center;
+            color: green;
+        }
+
+        .center {
+            text-align: center;
+            color: indigo;
+        }
+
+        p.center {
+            text-align: center;
+            color: lightblue;
+        }
+
+        p.large {
+            font-size: 300%;
+            color: lightgreen;
+        }
+    </style>
+</head>
+<h6>Yukarda h6 ile açılan süslü parantez tüm h6 lı tagları etkiler</h6>
+<p id="para1">verilen id ismi style da eşleşen id nin özellikleri alır</p>
+<h1 class="center">verilen class ismi style da eşleşen class nin özellikleri alır</h1>
+<hr>
+<p>id bir sayfada belli bir bütünü biçimlendirir ve bu bütün için sayfada bir defa kullanılmalıdır.
+    Örnek olarak sol blok kısmının bütününde, sidebar kısmının bütününde gibi.
+</p>
+<p>class ise bir bütün için değilde genel ayarlamalar için kullanılır.Aynı isme sahip bir div class diğer bütün
+    sayfalarda kullanılabilir.
+    Örnek olarak sidebar kısmındaki bütün kutucukların ayarları için class kullanabiliriz.</p>
+<hr>
+<p class="center">p.center style li sadece p tagı nın center classıların etkiler</p>
+<p class="center large">Classlar birden fazla class alabilir(örnek de center ve largeyi aldı)</p>
+<hr>
+<p>style içinde *{} şekilden olan fonk tüm body i etkiler</p>
+<hr>
+</body>
+
+</html>

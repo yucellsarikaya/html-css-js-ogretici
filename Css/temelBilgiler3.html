@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p.dotted {
+            border-style: dotted;
+        }
+
+        p.dashed {
+            border-style: dashed;
+        }
+
+        p.solid {
+            border-style: solid;
+        }
+
+        p.double {
+            border-style: double;
+        }
+
+        p.groove {
+            border-style: groove;
+        }
+
+        p.ridge {
+            border-style: ridge;
+        }
+
+        p.inset {
+            border-style: inset;
+        }
+
+        p.outset {
+            border-style: outset;
+        }
+
+        p.none {
+            border-style: none;
+        }
+
+        p.hidden {
+            border-style: hidden;
+        }
+
+        p.mix {
+            border-style: dotted dashed solid double;
+        }
+
+        p.width {
+            border-style: dotted dashed solid double;
+            border-width: 20px;
+            border-color: blue;
+        }
+
+        p.farkliWidth {
+            border-style: solid;
+            border-width: 5px 10px 15px 20px;
+            border-color: red green blue yellow;
+        }
+
+        p.kisayol {
+            border: 5px solid red;
+            border-radius: 5px;
+        }
+
+        div {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Farklı kenarlık stillerinin gösterimi:</h2>
+    <p class="dotted">Noktalı bir kenarlık tanımlar</p>
+    <p class="dashed">Kesikli bir kenarlık tanımlar</p>
+    <p class="solid">Düz bir kenarlık tanımlar</p>
+    <p class="double">Çift kenarlık tanımlar</p>
+    <p class="groove">3B oluklu bir kenarlık tanımlar. Etki, kenarlık rengi değerine bağlıdır</p>
+    <p class="ridge">3B çıkıntılı kenarlık tanımlar. Etki, kenarlık rengi değerine bağlıdır</p>
+    <p class="inset">3B iç metin kenarlığı tanımlar. Etki, kenarlık rengi değerine bağlıdır</p>
+    <p class="outset">Bir 3B başlangıç kenarlığı tanımlar. Etki, kenarlık rengi değerine bağlıdır</p>
+    <p class="none">Sınır tanımlamaz</p>
+    <p class="hidden">Gizli bir kenarlık tanımlar</p>
+    <p class="mix">Karışık bir kenarlık.</p>
+    <hr>
+    <p class="width">border-width ile cizgi kalınlığı belirlenir</p>
+    <p class="farkliWidth">border-width her kanarı için farklı gösterim yapılabilir</p>
+    <p class="kisayol">kisa yol border,radius sayesinde köşegenlerin keskinliği değiştirilebilr</p>
+    <hr>
+    <hr>
+    <div>
+        örnek div
+    </div>
+</body>
+
+</html>
