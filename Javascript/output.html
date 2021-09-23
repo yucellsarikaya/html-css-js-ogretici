@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>
+        <h5>JavaScript, verileri farklı şekillerde "gösterebilir":</h5>
+        innerHTML kullanarak bir HTML öğesine yazma.<br>
+        Document.write() kullanarak HTML çıktısına yazma.<br>
+        window.alert() kullanarak bir uyarı kutusuna yazma.<br>
+        Console.log() kullanarak tarayıcı konsoluna yazma.
+    </p>
+
+    <hr>
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Bu metin innerHTML kullanılarak yazıldı";
+        document.write("Bu metin Document.write() kullanılarak yazıldı");
+        window.alert("Bu metin window.alert() kullanılarak yazıldı");
+        console.log("Bu metin console.log() kullanılarak yazıldı")
+    </script>
+<button onclick="window.print()">Print this page</button>
+</body>
+
+</html>
